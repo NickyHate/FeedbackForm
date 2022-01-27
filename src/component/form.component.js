@@ -4,8 +4,14 @@ import s from "./form.component.css";
 class Form extends Component {
     render() {
         return <form className={s.form} method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="user_name"></input>
+            <div className={s.inputContainer}>
+                <label for="name">Имя:</label>
+                <input type="text" id={s.name} name="user_name"></input>
+            </div>
+            <div className={s.inputContainer}>
+                <label for="surname">Фамилия:</label>
+                <input type="text" id={s.surname} name="user_surname"></input>
+            </div>
         </form>;
     }
 }

@@ -1,3 +1,15 @@
 .form {
+    color: white;
+    font-size: 24px;
+}
 
+.inputContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+#name, #surname {
+    margin-left: 10px;
 }
