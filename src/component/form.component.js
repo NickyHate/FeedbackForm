@@ -7,6 +7,7 @@ class Form extends Component {
             <div className={s.inputContainer}>
                 <label for="name">Имя:</label>
                 <input type="text" id={s.name} name="user_name"></input>
+                <div className={s.validation}></div>
             </div>
             <div className={s.inputContainer}>
                 <label for="surname">Компания:</label>
